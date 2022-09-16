@@ -1,0 +1,2 @@
+comando usado para executar o minify que faz com que os codigos do css/sass fique em menos linha para o site ganhar mais velociade.
+sass sass/style.scss:css/style.css --style compressed

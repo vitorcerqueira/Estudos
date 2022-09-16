@@ -1,0 +1,92 @@
+<html lang="pt">
+<head>
+    <title>Elementos Semânticos no HTML 5</title>
+</head>
+<body>
+    <h1>Elementos Semânticos no HTML 5</h1>
+    <hr>
+    <h2>O que é semântica?</h2>
+    <p>É o estudo do significado das palavras e frases em um idioma. Assim, em HTML, elementos semânticos são elementos com significado.</p>
+
+    <section>
+        <table border="1">
+            <caption><h3>Tabela de Elementos</h3></caption>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Descrição</th>
+                    <th>Aplicações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;article&gt;</td>
+                    <td>Define um conteúdo independente, que faça sentido em si mesmo e possa ser destacado do restante do site.</td>
+                    <td>Postagens em blog, artigos, comentários de usuários, cartões de produtos.</td>
+                </tr>
+                <tr>
+                    <td>&lt;aside&gt;</td>
+                    <td>Define um conteúdo a ser mostrado na parte lateral. Deve estar associado indiretamente ao conteúdo que o cerca.</td>
+                    <td>Etiquetas, quadros e comentários postos ao lado de um conteúdo principal.</td>
+                </tr>
+                <tr>
+                    <td>&lt;details&gt;</td>
+                    <td>Define conteúdo adicional que o usuário poderá mostrar ou ocultar.</td>
+                    <td>Cria um widget interativo, oculto por padrão, que poderá ser mostrado por um clique do usuário que deseje ler os detalhes ali contidos.</td>
+                </tr>
+                <tr>
+                    <td>&lt;figcaption&gt;</td>
+                    <td>Define uma legenda para uma figura que será mostrada utilizando a tag &lt;figure&gt;.</td>
+                    <td>A legenda aqui contida pode ser colocada antes ou após uma figura que se queira explicar.</td>
+                </tr>
+                <tr>
+                    <td>&lt;figure&gt;</td>
+                    <td>Especifica que uma imagem será inserida no documento por meio do atributo "img".</td>
+                    <td>Colocação de figuras, fotografias, diagramas ou qualquer outro arquivo de imagem que se queira exibir.</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>Define o rodapé de um documento ou uma seção.</td>
+                    <td>Poderá trazer dados de autoria, dados de contato, mapa do site, links de navegação para o topo, documentos relacionados etc.</td>
+                </tr>
+                <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>Especifica o cabeçalho de um documento ou seção.</td>
+                    <td>Poderá trazer contêineres de elementos introdutórios, um conjunto de links navegáveis, um ou mais elementos de titulação (&lt;h1&gt; - &lt;h6&gt;), o logo ou ícone da pagina e informações de autoria.</td>
+                </tr>
+                <tr>
+                    <td>&lt;main&gt;</td>
+                    <td>Especifica o conteúdo principal do documento.</td>
+                    <td>O conteúdo dentro deste elemento deve ser único ao documento, não podendo trazer conteúdo que seja repetido ao longo do documento como barras laterais, links de navegação, informações de autoria, logos, e formulários de pesquisa. O elemento &lt;main&gt; <strong>NÃO</strong> pode descender dos elementos &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt;, &lt;header&gt;, ou &lt;nav&gt;.</td>
+                </tr>
+                <tr>
+                    <td>&lt;mark&gt;</td>
+                    <td>Estabelece marcação para o texto.</td>
+                    <td>A palavra ou texto dentro deste elemento aparecerá em highlight.</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt;</td>
+                    <td>Define links de navegação, que serão abaixo aninhados usando o atributo &lt;a href=""&gt;.</td>
+                    <td>Nem todos os links de um documento devem estar contidos neste elemento, pois ele serve para marcar uma seção inteira de links de navegação.</td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>Define uma seção no documento.</td>
+                    <td>Separará as seções do documento de maneira a garantir a organização das mesmas dentro do código.</td>
+                </tr>
+                <tr>
+                    <td>&lt;summary&gt;</td>
+                    <td>Define um cabeçalho para o elemento &lt;details&gt;.</td>
+                    <td>O usuário poderá clicar no cabeçalho para exibir o seu conteúdo. Este elemento deve vir sempre <strong>ANTES</strong> do elemento &lt;details&gt;.</td>
+                </tr>
+                <tr>
+                    <td>&lt;time&gt;</td>
+                    <td>Especifica uma data ou abre o atributo "datetime".</td>
+                    <td>Caso se utilize o atributo "datetime", a data será traduzida pelo navegador em um formato compreensível pela máquina, possibilitando que seja ofertado ao usuário um lembrete a ser adicionado no calendário. Também poderá ser utilizado por mecanismo de busca para realizar pesquisas inteligentes.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <p>A documentação completa sobre os elementos semânticos poderá ser encontrada em <a target="_blank" href="https://www.w3schools.com/html/html5_semantic_elements.asp">W3Schools</a>.</p>
+</body>
+</html>

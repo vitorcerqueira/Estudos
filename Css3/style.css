@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    color: rgb(104, 44, 143);
+}
+.post-container{
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    background-color: rgb(8, 8, 8)
+}
+.post-container .date{
+    font-family:'roboto', sans-serif ;
+    color: rgb(119, 26, 177);
+}
+.post-container div.post-content{
+    width: 90%;
+    font-family: 'open sans',sans-serif ;
+    font-weight: normal;
+    color: rgb(104, 44, 143);
+}
+.post-container .post{
+    margin-bottom:30px;
+    padding-top: 20px;
+    padding-left:50px;
+}
+body{
+    background-image: url('https://images6.alphacoders.com/100/1001790.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+

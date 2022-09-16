@@ -1,0 +1,21 @@
+.btn, .btn-roxo {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+}
+.btn.btn-amarelo, .btn-amarelo.btn-roxo {
+  background-color: yellow;
+}
+.btn.btn-azul, .btn-azul.btn-roxo {
+  background-color: blue;
+  color: white;
+}
+
+.btn-roxo {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

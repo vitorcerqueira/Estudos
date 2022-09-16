@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(151, 131, 169);
+
+}
+
+header {
+    background-color: yellow;
+    height: 100PX;
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
+
+main {
+    background-color: blue;
+    height: 100PX;
+    color: wheat;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+aside {
+    background-color: green;
+    height: 100PX;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+footer {
+    background-color: red;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    grid-template-rows: 10vh 75vh 10vh;
+    
+}

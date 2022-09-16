@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(96, 85, 240);
+    border: 2px dashed rgb(135, 2, 2);
+}
+
+li {
+    color: rgba(43, 116, 199, 0.984);
+    
+}
+
+body {
+    background-image: url('https://static01.nyt.com/images/2021/07/30/science/30lunarlander/30lunarlander-jumbo.jpg?quality=75&auto=webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.big-text{
+        color:rgb(255, 0, 0);
+    }
+    .moon{
+        color: blueviolet;
+    }
