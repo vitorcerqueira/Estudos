@@ -1,7 +1,7 @@
 --[PRECISA SABER]
 --CREATE TABLE 
 --ALTER TABLE
---DROP TABLE (Excluir tabela usar o delete para excluir a informaçao)
+--DROP TABLE (Excluir tabela)
 
 -- SELECT
 	-- ORDER BY
