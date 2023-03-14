@@ -1,8 +1,8 @@
 ---selecionar a tabela---
 SELECT *
 FROM person.Person;
---selecionar title--
 
+--selecionar title--
 SELECT TITLE
 FROM person.Person;
 
