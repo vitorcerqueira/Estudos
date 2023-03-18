@@ -14,7 +14,8 @@ OPERADOR - DESCRIÇÃO
 <>         DIFERENTE DE 
 AND        OPERADOR LOGICO E 
 OR         OPERADOR LOGICO OU 
-
+asc        ordem crecente 
+desc       ordem descrecente  
 */
 
 --selecionar nome especifico-- 
