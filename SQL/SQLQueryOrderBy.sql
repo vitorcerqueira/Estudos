@@ -28,6 +28,11 @@ SELECT TOP 10 Productid
 FROM Production.Product
 ORDER BY listprice desc
 ----------------------------------------------------------------------------------------------------------------
+/*obter o nome e numero do produto dos produtos que tem productID entre 1~4 */
+SELECT TOP 4 name,productnumber
+FROM Production.Product
+ORDER BY Productid asc
+
 
 
 
