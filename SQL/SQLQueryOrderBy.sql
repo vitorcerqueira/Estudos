@@ -24,9 +24,10 @@ FROM Person.Person
 ORDER BY MiddleName asc
 ----------------------------------------------------------
 /*obter o product ID dos 10 produtos mais caros cadastrado no sistema listando do mais caro para o mais barato*/
-SELECT TOP 10*
+SELECT TOP 10 Productid
 FROM Production.Product
-ORDER BY ProductID desc
+ORDER BY listprice desc
+----------------------------------------------------------------------------------------------------------------
 
 
 
