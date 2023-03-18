@@ -10,3 +10,11 @@ WHERE Firstname like 'ovi%' /*o like ele vai ajudar a trazer alguma informaçao q
 SELECT* 
 FROM person.person
 WHERE Firstname like '%to'/*% se for no inicio ele vai mostrar o que vem no fim da palavra*/
+
+SELECT* 
+FROM person.person
+WHERE Firstname like '%essa%'/*se usar duas % ele vai puxar tudo que esta no meio da palavra*/
+
+SELECT* 
+FROM person.person
+WHERE Firstname like '%ro_'/*se % e _ ele vai limitar em um caracter*/
