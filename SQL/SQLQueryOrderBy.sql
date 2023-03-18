@@ -12,3 +12,16 @@ ORDER BY FirstName asc --(asc é o comando para crecente)
 SELECT*
 FROM Person.Person
 ORDER BY FirstName desc 
+-------------------------------------------------------------------
+/*ordenar por mais colunas*/
+SELECT*
+FROM person.person
+ORDER BY FirstName asc,LastName desc 
+--------------------------------------------------------------------------
+/*selecionar coluna especifica ordem crecente ou decrcente*/
+SELECT FirstName,LastName
+FROM Person.Person
+ORDER BY MiddleName asc
+
+
+
