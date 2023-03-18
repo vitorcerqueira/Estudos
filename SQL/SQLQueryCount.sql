@@ -19,11 +19,13 @@ FROM Production.Product
 /*
 quantos tamanhos de produtos temos cadastrado em nossa tabela 
 */
-SELECT COUNT (DISTINCT size)
+SELECT COUNT (size)
 FROM Production.Product
+
+
 -----------------------------------------------------------
 /*
 quantos tamanhos diferentes de produtos eu tenho cadastrado em nossa tabela
 */
-SELECT*
+SELECT COUNT (DISTINCT size)
 FROM Production.Product
