@@ -19,8 +19,10 @@ SELECT*
 FROM Production.Product
 WHERE ListPrice not between 1000 and 1500;
 ------------------------------------------
+/* selecionando a coluna HireDate que esteje entre a data 2009/01/0 e 2010/01/01*/
 SELECT*
 FROM HumanResources.Employee
 WHERE HireDate between '2009/01/01' and '2010/01/01' /*data no sql ela começa ano/mes/dia*/
+ORDER BY hiredate 
 
 
