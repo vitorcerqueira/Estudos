@@ -8,3 +8,10 @@ SELECT coluna1,funcaoAgregacao(coluna2)
 FROM nometabela
 GRUPO BY coluna1;
 */
+SELECT*
+FROM Sales.SalesOrderDetail
+
+SELECT SpecialOfferID, SUM(unitPrice) AS "SOMA"
+FROM Sales.SalesOrderDetail
+GROUP BY SpecialOfferID
+
