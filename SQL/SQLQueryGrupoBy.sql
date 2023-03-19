@@ -44,6 +44,11 @@ GROUP BY Color
 SELECT MiddleName,COUNT(MiddleName) AS "Quantidade"
 FROM Person.Person
 GROUP BY MiddleName
---
+
+--2 eu preciso saber em media qual é a quantiade (quantity) que cada produto é vendido na loja.
+SELECT ProductID,AVG(OrderQty) AS "MEDIA"
+FROM Sales.SalesOrderDetail
+GROUP BY ProductID
+
 
 
