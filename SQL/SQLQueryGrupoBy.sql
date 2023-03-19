@@ -50,5 +50,10 @@ SELECT ProductID,AVG(OrderQty) AS "MEDIA"
 FROM Sales.SalesOrderDetail
 GROUP BY ProductID
 
-
+/*3 eu quero saber qual foram as 10 vendas que total tiveram os maiores valor de venda venda(line total) 
+por produto do maior valor para menor*/
+SELECT TOP 10 ProductID,SUM(linetotal)
+FROM Sales.SalesOrderDetail
+GROUP BY ProductID
+ORDER BY SUM(linetotal)desc
 
