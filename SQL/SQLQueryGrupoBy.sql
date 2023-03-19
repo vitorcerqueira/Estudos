@@ -57,3 +57,11 @@ FROM Sales.SalesOrderDetail
 GROUP BY ProductID
 ORDER BY SUM(linetotal)desc
 
+/*4- eu preciso saber quantos produtos e qual quantidade media de produtos 
+temos cadastrados nas nossas ordem de serviço(workorder), agrupados por productID*/
+SELECT productid,COUNT(productid) AS "CONTAGEM",
+AVG(OrderQty) AS "MEDIA"
+FROM production.workOrder
+GROUP BY productid 
+
+
