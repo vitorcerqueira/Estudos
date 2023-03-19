@@ -39,5 +39,11 @@ FROM Production.Product
 WHERE color = 'silver'
 GROUP BY Color
 
+--desafio-- 
+--1 eu preciso saber quantas pessoas tem o mesmo MiddleName agrupados por MiddleName
+SELECT MiddleName,COUNT(MiddleName) AS "Quantidade"
+FROM Person.Person
+GROUP BY MiddleName
+--
 
 
