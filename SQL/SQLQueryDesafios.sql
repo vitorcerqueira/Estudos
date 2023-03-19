@@ -18,6 +18,21 @@ FROM Person.Address
 SELECT DISTINCT City
 FROM Person.Address
 
+/*5- Quantos produtos vermelhos tem preco entre 500 a 1000 dolares*/
+SELECT COUNT(*)
+FROM Production.Product
+WHERE color = 'red' 
+AND ListPrice between 500 and 1000 
+
+/*6- quantos produtos cadastrados tem a palavra 'road' no nome deles*/
+SELECT COUNT(*)
+FROM Production.Product
+WHERE name like '%road%'
+
+
+
+
+
 
  
 
