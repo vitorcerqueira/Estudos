@@ -27,3 +27,26 @@ FROM sales.SalesOrderDetail
 GROUP BY ProductID
 HAVING SUM(linetotal) between 162000 and 500000
 
+/*vamos dizer que queremos saber quais nomes no sistema tem uma ocorrencia maior que 10 vezes porem
+somente onde o titulo é 'mr.'*/
+SELECT firstName,COUNT(firstname)AS "quantidade"
+FROM Person.Person
+WHERE title ='mr.'
+GROUP BY firstName
+HAVING COUNT(firstName) >10
+
+/*estamos querendo indentificar as provincias (stateProviceid)com o maior numero de cadastro 
+no nosso sistema entao é preciso encontrar quais provincias(stateprovinceid)estao registradas no banco 
+de dados mais que 1000 vezes*/
+SELECT*
+FROM Person.Address
+
+SELECT stateprovinceid,COUNT(stateprovinceid) AS "Quantidade"
+FROM Person.Address
+GROUP BY stateprovinceid 
+HAVING COUNT (stateprovinceid) >1000
+
+
+
+
+

@@ -1,4 +1,18 @@
 --[PRECISA SABER]
+
+/* OPERADOR - DESCRIÇÃO 
+=          IGUAL
+>          MAIOR QUE 
+<          MENOR QUE
+>=         MAIOR QUE OU IGUAL
+<=         MAIOR QUE OU IGUAL
+<>         DIFERENTE DE 
+AND        OPERADOR LOGICO E 
+OR         OPERADOR LOGICO OU 
+asc        ordem crecente 
+desc       ordem descrecente  
+*/
+
 --CREATE TABLE 
 --ALTER TABLE
 --DROP TABLE (Excluir tabela)
