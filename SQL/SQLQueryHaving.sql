@@ -53,18 +53,14 @@ nao estao trazendo em media no minimio 1 milhao em total de vendas (linetotal)
 SELECT*
 FROM Sales.SalesOrderDetail
 
-SELECT Productid,AVG(productid) as "Media"
+ SELECT Productid,AVG(LineTotal) as "Media"
 FROM Sales.SalesOrderDetail
 GROUP BY ProductID
-HAVING AVG(ProductID) 
+HAVING AVG(LineTotal) <1000000 
 
 
 
----
-SELECT productid,SUM(linetotal) AS "Total"
-FROM sales.SalesOrderDetail
-GROUP BY ProductID
-HAVING SUM(linetotal) between 162000 and 500000
+
 
 
 
