@@ -35,7 +35,7 @@ WHERE title ='mr.'
 GROUP BY firstName
 HAVING COUNT(firstName) >10
 
-/*estamos querendo indentificar as provincias (stateProviceid)com o maior numero de cadastro 
+/*1-estamos querendo indentificar as provincias (stateProviceid)com o maior numero de cadastro 
 no nosso sistema entao é preciso encontrar quais provincias(stateprovinceid)estao registradas no banco 
 de dados mais que 1000 vezes*/
 SELECT*
@@ -46,6 +46,25 @@ FROM Person.Address
 GROUP BY stateprovinceid 
 HAVING COUNT (stateprovinceid) >1000
 
+/*
+2- sendo que se trata de uma multinacional os gerentes querem saber quais produtos (productid)
+nao estao trazendo em media no minimio 1 milhao em total de vendas (linetotal)
+*/
+SELECT*
+FROM Sales.SalesOrderDetail
+
+SELECT Productid,AVG(productid) as "Media"
+FROM Sales.SalesOrderDetail
+GROUP BY ProductID
+HAVING AVG(ProductID) 
+
+
+
+---
+SELECT productid,SUM(linetotal) AS "Total"
+FROM sales.SalesOrderDetail
+GROUP BY ProductID
+HAVING SUM(linetotal) between 162000 and 500000
 
 
 
