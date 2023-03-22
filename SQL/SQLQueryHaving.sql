@@ -7,3 +7,7 @@ SELECT coluna1,funcaoagrecacao(coluna2)
 FROM nomeTabela
 GROUP BY coluna1
 HAVING condicao;
+
+/*DIFERENÇA entre HAVING e WHERE 
+é que o GROUP BY é aplicado depois que os dados ja foram agrupados, enquanto o WHERE é aplicado antes 
+dos dados serem agrupados*/ 
