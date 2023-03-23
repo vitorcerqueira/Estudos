@@ -14,5 +14,9 @@ SELECT ProductNumber AS "numero do produto",Product.ProductID AS "codigo do prod
 FROM Production.Product
 
 --3) encontrar sales.salesorderdetail uniprice traduzir para o portugues
-SELECT*
+SELECT UnitPrice AS "preço unitario"
 FROM Sales.SalesOrderDetail
+
+--4) encontrar firstname,lastname,productnumber,Product.ProductID,uniprice
+SELECT firstname AS "primeiro none", lastName AS "sobrenome",ProductNumber AS "numero do produto",Product.ProductID AS "codigo do produto",UnitPrice AS "preço unitario"
+FROM Person.Person,Production.Product,Sales.SalesOrderDetail
