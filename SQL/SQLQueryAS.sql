@@ -19,4 +19,4 @@ FROM Sales.SalesOrderDetail
 
 --4) encontrar firstname,lastname,productnumber,Product.ProductID,uniprice
 SELECT firstname AS "primeiro none", lastName AS "sobrenome",ProductNumber AS "numero do produto",Product.ProductID AS "codigo do produto",UnitPrice AS "preço unitario"
-FROM Person.Person,Production.Product,Sales.SalesOrderDetail
+FROM Person.Per son,Production.Product,Sales.SalesOrderDetail
