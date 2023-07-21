@@ -4,13 +4,13 @@ const CampoDeEstudo = prompt("Qual é o campo de estudo do recruta?");
 const AnoDeNascimento = prompt("Qual é o ano de nascimento do recruta?");
 
 alert(
-  "Recruta cadastrado com sucesso! " +
-    "Nome completo: " +
+  "Recruta cadastrado com sucesso!\n" +
+    "\nNome completo:" +
     PrimeiroNome +
     "" +
     Sobrenome +
-    "Campo de estudo: " +
+    "\nCampo de estudo:" +
     CampoDeEstudo +
-    "Idade: " +
+    "\nIdade:" +
     (2022 - AnoDeNascimento)
 );
