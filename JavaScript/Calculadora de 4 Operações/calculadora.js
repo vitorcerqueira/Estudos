@@ -1,5 +1,8 @@
-const x = prompt("informe o primeiro numero");
-const y = prompt("informe o segundo numero");
+const entrada1 = prompt("informe o primeiro numero");
+const entrada2 = prompt("informe o segundo numero");
+
+const x = parseFloat(entrada1);
+const y = parseFloat(entrada2);
 
 const soma = x + y;
 const subtracao = x - y;
@@ -8,7 +11,7 @@ const divisao = x / y;
 
 alert(
   "resultado:\n" +
-    "\nsome:" +
+    "\nsoma:" +
     soma +
     "\nsubtracao:" +
     subtracao +
