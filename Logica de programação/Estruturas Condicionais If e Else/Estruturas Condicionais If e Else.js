@@ -10,3 +10,6 @@ else if(idade >4){
   alert("voce é criança")
 }
 
+const resultado =(6 === 6) ?"verdadeiro":"falso"
+console.log(resultado)
+
