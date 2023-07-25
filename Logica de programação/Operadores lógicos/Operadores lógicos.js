@@ -18,3 +18,9 @@
 //true || false === true
 //falso || true ===  true
 //falso || false === false
+
+//TABELA VERDADE - Não (NOT)
+// operador !
+// inverte o resultado (de verdadeiro para falso e vice-versa)
+//true ! false === false
+//false ! true === true
