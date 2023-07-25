@@ -9,3 +9,4 @@ else if (idade >12){
 else if(idade >4){
   alert("voce é criança")
 }
+
