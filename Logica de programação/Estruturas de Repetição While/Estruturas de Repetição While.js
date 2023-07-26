@@ -4,4 +4,9 @@ while (velociade > 0){
   alert ("o carro esta a " + velociade + "km/h")
   velociade -= 20
   alert("diminuindo 20 km/h")
+
+  if (velociade === 40)
+  break
 }
+
+alert("o carro parou.")
