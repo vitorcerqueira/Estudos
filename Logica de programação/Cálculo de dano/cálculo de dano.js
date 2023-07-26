@@ -16,7 +16,7 @@ if (poderDeAtaque > poderDeDefesa && possuiEscudo === "Não ") {
 
 pontosDeVida -= danoCausado;
 
-alert(atacante + "causou " + danoCausado + "pontos de dano em " + defensor);
+alert(atacante + " causou " + danoCausado + " pontos de dano em " + defensor);
 alert(
   atacante +
     "\npoder de ataque: " +
