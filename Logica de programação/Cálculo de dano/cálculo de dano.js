@@ -13,3 +13,20 @@ if (poderDeAtaque > poderDeDefesa && possuiEscudo === "nao") {
 } else if (poderDeAtaque > poderDeDefesa && possuiEscudo === "sim") {
   danoCausado = (poderDeAtaque - poderDeDefesa) / 2;
 }
+
+pontosDeVida -= danoCausado;
+
+alert(atacante + "causou" + danoCausado + "pontos de dano em" + defensor);
+alert(
+  atacante +
+    "\npoder de ataque: " +
+    poderDeAtaque +
+    "\n\n" +
+    defensor +
+    "\npontos de vida: " +
+    pontosDeVida +
+    "\npoder de defesa: " +
+    poderDeDefesa +
+    "\npossui escudo: " +
+    possuiEscudo
+);
