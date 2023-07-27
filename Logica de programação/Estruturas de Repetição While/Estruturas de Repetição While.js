@@ -8,5 +8,4 @@ while (velociade > 0){
   if (velociade === 40)
   break
 }
-
 alert("o carro parou.")
