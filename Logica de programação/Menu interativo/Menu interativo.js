@@ -11,4 +11,4 @@ do {
     "\n5. opção Encerrar" 
   )
 
-} while (opcao !==="5")
+} while (opcao !== "5")
