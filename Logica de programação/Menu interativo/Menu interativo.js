@@ -2,7 +2,7 @@ let opcao = "5"
 
 do {
   opcao = prompt(
-    "seja bem vindo(a)\n" +
+    "Seja bem-vindo(a)\n" +
     "\nEscolha uma uma das opçoes abaixo:" +
     "\n1. Opção Um" +
     "\n2. Opção Dois" +
