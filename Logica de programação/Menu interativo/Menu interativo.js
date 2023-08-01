@@ -25,7 +25,10 @@ do {
       alert("Você escolheu a opção 4");
       break;
     case "5":
-      alert("Você escolheu a opção 5");
+      alert("Você escolheu encerrar.");
+      alert("Encerrando...");
       break;
+    default:
+      alert("opção invalida.");
   }
 } while (opcao !== "5");
