@@ -8,7 +8,7 @@ do {
     "\n2. Opção Dois" +
     "\n3. Opção Três" +
     "\n4. Opção Quatro" +
-    "\n5. Opção Encerrar" 
+    "\n5. Encerrar" 
   )
 
 } while (opcao !== "5")
