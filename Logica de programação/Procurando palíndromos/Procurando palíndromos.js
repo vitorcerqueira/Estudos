@@ -1,4 +1,4 @@
-const palavra = prompt("informe uma palavra:");
+const palavra = prompt("Informe uma palavra:");
 let palavraInvertida = " ";
 
 //marcarrao
@@ -10,6 +10,6 @@ if (palavra === palavraInvertida) {
   alert(palavra + "é um palindromo");
 } else {
   alert(
-    palavra + " nao é um palindromo!\n\n" + palavra + " !==" + palavraInvertida
+    palavra + " Não é um palindromo!\n\n" + palavra + " !==" + palavraInvertida
   );
 }
