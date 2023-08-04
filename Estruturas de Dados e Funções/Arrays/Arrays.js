@@ -58,3 +58,27 @@ const outros = arr.slice(-4);
 console.log(arr);
 console.log(hobbits);
 console.log(outros);
+
+// concat
+const sociedade = hobbits.concat(outros, "boromir");
+console.log(sociedade);
+
+// substituiçao dos elementos
+// splice
+const elementosremovidos = sociedade.splice(
+  indice,
+  1,
+  "gandalf, o cinzento",
+  1,
+  3,
+  false,
+  true
+);
+console.log(sociedade);
+console.log(elementosremovidos);
+
+//interar sobre os elementos
+for (let indice = 0; indice < sociedade.length; indice++) {
+  const elemento = sociedade[indice];
+  console.log(elemento + "se encontra na posição" + indice);
+}
