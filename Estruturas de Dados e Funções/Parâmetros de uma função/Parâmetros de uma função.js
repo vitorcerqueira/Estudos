@@ -25,4 +25,4 @@ function criarUsuario(nome, email, senha, tipo = "admin"){
   console.log(usuario)
 }
 
-criarUsuario("isaac", "isaac@gmail.com", "1234")
+criarUsuario("Vitor", "Vitor@gmail.com", "1234")
