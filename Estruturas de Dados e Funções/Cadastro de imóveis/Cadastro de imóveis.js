@@ -34,9 +34,27 @@ do {
 
       if (confirmacao) {
         imoveis.push(imovel);
+        alert("Imovel salvo com sucesso!");
+      } else {
+        alert("voltando ao menu.");
       }
-
+      break;
     case "2":
+      for (let i = 0; i < imoveis.length; i++) {
+        alert(
+          "Imóvel " +
+            (i + 1) +
+            "\nProprietário: " +
+            imoveis[i].proprietario +
+            "\nQuartos: " +
+            imoveis[i].quartos +
+            "\nBanheiros: " +
+            imoveis[i].banheiros +
+            "\nPossui Garagem? " +
+            imoveis[i].garagem
+        );
+      }
+      break;
     case "3":
       alert("encerrando...");
       break;
