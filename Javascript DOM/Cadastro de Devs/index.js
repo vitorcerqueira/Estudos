@@ -14,3 +14,8 @@ function createInput(id, value, name, type = 'text', placeholder = '') {
   input.placeholder = placeholder
   return input
 }
+
+const addTechBtn = document.getElementById('addTechBtn')
+const form = document.getElementById('devForm')
+const developers = []
+let inputRows = 0
