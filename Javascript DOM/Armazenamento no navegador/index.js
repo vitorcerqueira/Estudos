@@ -33,7 +33,7 @@ document.getElementById('cookie2Btn').addEventListener('click', function () {
   const input = document.getElementById('cookie2')
   // cookieName=value; expires=UTCStringDate; path=/;
   const cookie = 'text=' + input.value + ';'
-  const expiration = 'expires=' + new Date(2022, 8, 9) + ';'
+  const expiration = 'expires=' + new Date(2023, 9, 1) + ';'
   const path = 'path=/;'
   document.cookie = cookie + expiration + path
   input.value = ''
