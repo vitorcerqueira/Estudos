@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estatística na Programação</title>
+</head>
+<body>
+  <h1>Estatística na Programação</h1>
+  <p>De acordo com os conhecimentos aprendidos nesse módulo sobre recursos do javascript moderno, crie quatro funções que aceitem qualquer quantidade de parâmetros e utilizando a sintaxe de arrow functions para calcular as operações abaixo.<br>Essas funções devem mostrar o resultado de alguma forma em texto porém não é necessário implementar uma interface. Para testar a função você pode fazer chamadas manuais a ela no javascript ou utilizar o console do navegador (qualquer função incluída na página pode ser chamada diretamente no console).</br><br><strong>Operações:</strong><br><strong>Média Aritmética Simples:</strong> Pode ser calculada somando todos os valores e dividindo o total da soma pela quantidade de valores.<br><br><strong>Exemplo:</strong><br>
+    media(2, 6, 3, 7, 4) === 4.4<br>
+    // porque<br>
+     2 + 6 + 3 + 7 + 4 === 22<br>
+    // e <br>
+    22 / 5 === 4.4
+  </p>
+  <p><strong>Média Aritmética Ponderada:</strong> Semelhante à média aritmética simples, porém é possível atribuir um peso a cada valor informado, fazendo com que ele tenha um valor proporcionalmente diferente dos outros. Pode ser calculada somando as multiplicações dos valores pelos seus respectivos pesos e dividindo o total pela soma dos pesos.<br><br><strong>Exemplo:</strong><br>
+  // n -> número, p -> peso<br>
+mediaPonderada({ n: 7, p: 2}, { n: 9, p: 5 }, { n: 3, p: 1 }) === 7.75<br>
+// porque<br>
+(7 * 2) + (9 * 5) + (3 * 1) === 62<br>
+// e<br>
+62 / (2 + 5 + 1) === 7.75<br></p>
+</body>
+</html>
