@@ -7,26 +7,42 @@
   </head>
   <body>
     <h1>Desestruturação de objetos e arrays</h1>
-    <p>A desestruturação de objetos e arrays é uma característica introduzida no JavaScript (ECMAScript 6 ou ES6) que permite extrair valores de objetos e arrays de forma mais concisa e conveniente, atribuindo-os a variáveis individuais. Isso simplifica a manipulação de dados em estruturas complexas, tornando o código mais legível e menos verboso.</p>
-    <p>Aqui estão os conceitos básicos da desestruturação de objetos e arrays:</p>
+    <p>
+      A desestruturação de objetos e arrays é uma característica introduzida no
+      JavaScript (ECMAScript 6 ou ES6) que permite extrair valores de objetos e
+      arrays de forma mais concisa e conveniente, atribuindo-os a variáveis
+      individuais. Isso simplifica a manipulação de dados em estruturas
+      complexas, tornando o código mais legível e menos verboso.
+    </p>
+    <p>
+      Aqui estão os conceitos básicos da desestruturação de objetos e arrays:
+    </p>
     <h3>Desestruturação de Objetos:</h3>
-    <p><strong>Desestruturação de objetos simples:</strong> Suponha que você tenha um objeto com várias propriedades e deseja atribuir essas propriedades a variáveis individuais. Você pode fazer isso usando a desestruturação de objetos da seguinte maneira:</p>
-    <p>const pessoa = { nome: 'Alice', idade: 30 };<br>
+    <p>
+      <strong>Desestruturação de objetos simples:</strong> Suponha que você
+      tenha um objeto com várias propriedades e deseja atribuir essas
+      propriedades a variáveis individuais. Você pode fazer isso usando a
+      desestruturação de objetos da seguinte maneira:
+    </p>
+    <p>
+      const pessoa = { nome: 'Alice', idade: 30 };<br />
 
-      const { nome, idade } = pessoa;<br>
-      
-      console.log(nome);  // "Alice"<br>
-      console.log(idade); // 30<br>
-      </p>
-      <h3>Alias de propriedades:</h3>
-      <p>Você também pode atribuir propriedades a variáveis com nomes diferentes usando a sintaxe de alias:<br>
-      const pessoa = { nome: 'Bob', idade: 25 };<br><br>
+      const { nome, idade } = pessoa;<br />
 
-const { nome: nomeDaPessoa, idade: idadeDaPessoa } = pessoa;<br><br>
+      console.log(nome); // "Alice"<br />
+      console.log(idade); // 30<br />
+    </p>
+    <h3>Alias de propriedades:</h3>
+    <p>
+      Você também pode atribuir propriedades a variáveis com nomes diferentes
+      usando a sintaxe de alias:<br />
+      const pessoa = { nome: 'Bob', idade: 25 };<br /><br />
 
-console.log(nomeDaPessoa);  // "Bob"<br>
-console.log(idadeDaPessoa); // 25 </p>
+      const { nome: nomeDaPessoa, idade: idadeDaPessoa } = pessoa;<br /><br/>
 
+      console.log(nomeDaPessoa); // "Bob"<br />
+      console.log(idadeDaPessoa); // 25
+    </p>
 
     <script src="./index.js"></script>
   </body>
