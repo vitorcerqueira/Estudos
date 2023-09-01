@@ -18,6 +18,16 @@
       console.log(nome);  // "Alice"<br>
       console.log(idade); // 30<br>
       </p>
+      <h3>Alias de propriedades:</h3>
+      <p>Você também pode atribuir propriedades a variáveis com nomes diferentes usando a sintaxe de alias:<br>
+      const pessoa = { nome: 'Bob', idade: 25 };<br><br>
+
+const { nome: nomeDaPessoa, idade: idadeDaPessoa } = pessoa;<br><br>
+
+console.log(nomeDaPessoa);  // "Bob"<br>
+console.log(idadeDaPessoa); // 25 </p>
+
+
     <script src="./index.js"></script>
   </body>
 </html>
