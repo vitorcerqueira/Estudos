@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1a1d;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  margin: 0 2rem;
+}
+
+main > form {
+  flex: 1;
+}
+
+main > div {
+  flex: 3;
+}
+
+h1 {
+  margin: 2rem 2rem 0;
+}
+
+h2 {
+  background-color: #39353b;
+  border-radius: .5rem;
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+label {
+  display: block;
+  margin: 1.5rem 0 .5rem;
+}
+
+input {
+  background-color: #39353b;
+  border: 0;
+  border-radius: .25rem;
+  color: #fff;
+  padding: .75rem;
+  width: 100%;
+}
+
+button {
+  background-color: #6bf394;
+  border: 0;
+  border-radius: .25rem;
+  font-size: .9rem;
+  padding: .5rem 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
+form > button {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+button + button {
+  margin-left: 1rem;
+}
+
+.transactions {
+  width: 100%;
+}
+
+.transaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #39353b;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.transaction:first-child {
+  margin-top: 1rem;
+}
+
+.transaction > span {
+  flex: 1;
+}
+
+.transaction-amount {
+  margin-right: 4rem;
+  text-align: end;
+}
+
+.transaction-amount.credit {
+  color: #6bf394;
+}
+
+.transaction-amount.debit {
+  color: #f64348;
+}
+
+.edit-btn {
+  background-color: #7bb4ff;
+}
+
+.delete-btn {
+  background-color: #f64348;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}

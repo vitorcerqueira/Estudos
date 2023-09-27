@@ -1,0 +1,39 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "name": "Freela",
+      "amount": 300
+    },
+    {
+      "name": "Salário",
+      "amount": 3200,
+      "id": 3
+    },
+    {
+      "name": "Conta de água",
+      "amount": -60,
+      "id": 4
+    },
+    {
+      "name": "Conta de luz",
+      "amount": -150,
+      "id": 5
+    },
+    {
+      "name": "vitor",
+      "amount": 500,
+      "id": 6
+    },
+    {
+      "name": "vitor",
+      "amount": 3000,
+      "id": 7
+    },
+    {
+      "name": "comida",
+      "amount": 500,
+      "id": 8
+    }
+  ]
+}
