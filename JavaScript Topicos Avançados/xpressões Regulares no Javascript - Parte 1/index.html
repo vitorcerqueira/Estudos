@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xpressões Regulares no Javascript - Parte 1</title>
+  </head>
+  <body>
+    <h1>Expressões Regulares no Javascript</h1>
+    <ul>
+      <h2>Flags</h2>
+      <li>g global</li>
+      <li>i case insensitive</li>
+      <li>m multiline</li>
+      <li>s single line</li>
+    </ul>
+    <ul>
+      <h2>Caracteres Especiais</h2>
+      <li>^ início da linha</li>
+      <li>$ fim da linha</li>
+      <li>| ou</li>
+      <li>+ ocorrências em sequência</li>
+      <li>? caractere opcional (antes do sinal)</li>
+      <li>* ocorrências em sequência de forma opcional</li>
+      <li>. caractere qualquer</li>
+      <li>\ escapa um caractere especial</li>
+      <li>\w qualquer caractere alfanumérico</li>
+      <li>\d qualquer caractere numérico</li>
+      <li>\s espaços</li>
+      <li>\W qualquer caractere que não é alfanumérico</li>
+      <li>\D qualquer caractere que não é numérico</li>
+      <li>\S qualquer caractere que não é espaço</li>
+      <li>
+        {} encontra uma quantidade de caracteres entre um mínimo e um máximo
+      </li>
+      <li>[ ] agrupamento de regras</li>
+      <li>( ) agrupamento de captura</li>
+    </ul>
+    <ul>
+      <h2>Look Ahead e Look Behind</h2>
+      <li>
+        (?=) positive look ahead: encontra termos que precedem um determinado
+        termo
+      </li>
+      <li>
+        (?!) negative look ahead: encontra termos que não precedem um
+        determinado termo
+      </li>
+      <li>
+        (?<=) positive look behind: encontra termos que são precedidos por um
+        determinado termo
+      </li>
+      <li>
+        (?<!)  negative look behind: encontra termos que não são precedidos por um determinado termo</li>
+      </li>
+    </ul>
+
+    <p>
+      Recomendação de site para testar expressões regulares:<br />https://regex101.com/<br />https://regexr.com/
+    </p>
+  </body>
+</html>
