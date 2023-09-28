@@ -1,4 +1,4 @@
-# 16 - [Resolução] Declarando Tipos com TypeScript
+## Declarando Tipos com TypeScript
 
 1. Crie a estrutura inicial do projeto:
     
