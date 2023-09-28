@@ -2,7 +2,7 @@
 
 1. Crie a estrutura inicial do projeto:
 
-   (se estiver utilizando a estrutura das aulas anteriores avance para o passo 5)
+  
 
    ```bash
    mkdir exercicio-criando-tipos && cd exercicio-criando-tipos
